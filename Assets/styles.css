@@ -9,6 +9,9 @@
     padding-left: 200px;
     padding-right: 200px;
 }
+main{
+    min-height: 100vh;
+}
 
 #aboutMe{
     text-align: center;
@@ -46,26 +49,20 @@
     height: 100%;
 }
 
-#footer {
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+    width:100%;
     position:fixed;
+    z-index:10;
+    background:inherit;
+  }
+  .footer,
+  .push {
     height: 50px;
-    
-    bottom: 20px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-    text-align: center;
-    color:#077BFF;
-    
-}
-li{
-    display: inline;
-    padding: 14px;
-    position: relative;
-       
-    
-    
-}
+    position: absolute;
+  }
+
 a{
     color: aliceblue;
 }
